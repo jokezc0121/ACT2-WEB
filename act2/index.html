@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <title>CineMedia Showcase - Portal Multimedia</title>
+ <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ <header id="main-header">
+ <div class="header-brand">
+ <h1>CineMedia Showcase</h1>
+ <p>Plataforma de Proyectos Audiovisuales e Interactivos</p>
+ </div>
+ <nav>
+ <ul>
+ <li><a href="#destacado">Destacado</a></li>
+ <li><a href="#galeria">Proyectos</a></li>
+ <li><a href="#valoracion">Valoración</a></li>
+ </ul>
+ </nav>
+ </header>
+ <main>
+ <section id="destacado">
+ <h2>Proyecto Destacado del Mes</h2>
+ <article class="featured-card">
+ <h3>Documental: Ecosistemas Digitales</h3>
+ <p>
+ Una exploración visual sobre la evolució
+experiencias multimedia interactivas.
+ </p>
+ <video
+ controls
+ poster="https://via.placeholder.com/800x450/0f172a/ffffff?text=CineMedia+Showcase"
+ >
+ <source
+ src="MEDIA/nueva-era---duki-myke-towers.mp4"
+ type="video/mp4"
+ />
+ Tu navegador no soporta la reproducción de video HTML5.
+ </video>
+ </article>
+ </section>
+ <section id="galeria">
+ <h2>Galería de Experiencias</h2>
+ <div class="grid-container">
+ <article class="card">
+ <img
+ src="https://via.placeholder.com/400x250/1e293b/38bdf8?text=UI%2FUX+Design"
+ alt="Proyecto 1"
+ />
+ <div class="card-body">
+ <h3>Interfaz Web Inmersiva</h3>
+ <p>
+ Diseño de experiencia de usuario enfocado en navegación
+ intuitiva y accesibilidad web.
+ </p>
+ <a href="#" class="btn-card">Ver Proyecto</a>
+ </div>
+ </article>
+ <article class="card">
+ <img
+ src="https://via.placeholder.com/400x250/1e293b/38bdf8?text=Realidad+Virtual"
+ alt="Proyecto 2"
+ />
+ <div class="card-body">
+ <h3>Entorno VR WebGL</h3>
+ <p>
+ Simulación interactiva 3D ejecutada directamente sobre el
+ navegador web.
+ </p>
+ <a href="#" class="btn-card">Ver Proyecto</a>
+ </div>
+ </article>
+ <article class="card">
+ <img
+ src="https://via.placeholder.com/400x250/1e293b/38bdf8?text=Audio+3D"
+ alt="Proyecto 3"
+ />
+ <div class="card-body">
+ <h3>Soundscape Espacial</h3>
+ <p>
+ Experiencia sonora binaural diseñada para plataformas multimedia
+ de alta fidelidad.
+ </p>
+ <a href="#" class="btn-card">Ver Proyecto</a>
+ </div>
+ </article>
+ <article class="card">
+ <img
+ src="https://via.placeholder.com/400x250/1e293b/38bdf8?text=Animation+CSS"
+ alt="Proyecto 4"
+ />
+ <div class="card-body">
+ <h3>Motion Graphics Web</h3>
+ <p>
+ Composiciones animadas mediante transformaciones y transiciones
+ puras en CSS3.
+ </p>
+ <a href="#" class="btn-card">Ver Proyecto</a>
+ </div>
+ </article>
+ </div>
+ </section>
+ <section id="valoracion">
+ <h2>Valora la Experiencia</h2>
+ <form action="#" method="POST">
+ <div class="form-group">
+ <label for="nombre">Nombre Completo:</label>
+ <input
+ type="text"
+ id="nombre"
+ name="nombre"
+ placeholder="Ingresa tu nombre"
+ required
+ />
+ </div>
+ <div class="form-group">
+ <label for="correo">Correo Electrónico:</label>
+ <input
+ type="email"
+ id="correo"
+ name="correo"
+ placeholder="ejemplo@correo.com"
+ required
+ />
+ </div>
+ <div class="form-group">
+ <label for="categoria">Categoría Favorita:</label>
+ <select id="categoria" name="categoria">
+ <option value="ui">Diseño UI/UX</option>
+ <option value="vr">Realidad Virtual / 3D</option>
+ <option value="audio">Diseño Sonoro</option>
+ <option value="animacion">Animación Digital</option>
+ </select>
+ </div>
+ <div class="form-group">
+ <label for="comentario">Comentarios o Feedback:</label>
+ <textarea
+ id="comentario"
+ name="comentario"
+ rows="4"
+ placeholder="Escribe tus observaciones aquí..."
+ ></textarea>
+ </div>
+ <button type="submit" class="btn-submit">Enviar Valoración</button>
+ </form>
+ </section>
+ </main>
+ <footer>
+ <p>
+ &copy; 2026 CineMedia Showcase — Asignatura Desarrollo de Experiencias
+ Multimedia para la Web
+ </p>
+ </footer>
+</body>
+</html>
+ 
